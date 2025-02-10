@@ -20,18 +20,20 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#service" className="text-lg font-medium">
+            <a href="#services" className="text-lg font-medium">
               Service
             </a>
           </li>
         </ul>
 
+        <a href="#talk">
         <div className="bg-gradient-to-r from-black via-black to-indigo-700/80 text-white rounded-full w-44 py-3.5 border-4 border-black hover:via-indigo-700/80 transition-colors duration-500">
           <div className="flex justify-between items-center px-7 cursor-pointer">
             <i className="bi bi-emoji-smile font-bold"></i>
             <span className="font-normal text-lg">Let&apos;s Talk</span>
           </div>
         </div>
+        </a>
       </div>
     </nav>
   );
