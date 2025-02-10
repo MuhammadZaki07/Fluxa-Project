@@ -17,7 +17,7 @@ const Talk = () => {
         digital excellence for businesses like yours.
       </p>
     </section>
-     <section className="w-full bg-black px-60 py-48 relative img-section-2">
+     <section className="w-full bg-black px-60 py-48 relative img-section-2" id="img">
      <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black"></div>
    </section>
     </>

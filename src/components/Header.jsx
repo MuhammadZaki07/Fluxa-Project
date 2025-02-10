@@ -25,7 +25,7 @@ const Header = () => {
         We create impactful digital experiences. better results every next
         year of our work
       </p>
-      <a href="#" className="font-light text-2xl" data-aos="fade-down">
+      <a href="#img" className="font-light text-2xl" data-aos="fade-down">
         SCROLL DOWN <i className="bi bi-arrow-down-left"></i>
       </a>
     </div>
