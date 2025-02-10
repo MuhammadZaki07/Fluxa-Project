@@ -7,9 +7,10 @@ const LineGrid = ({
   underline,
   imageSrc,
   imageClassName,
+  effect
 }) => {
   return (
-    <div className="relative flex items-center justify-between">
+    <div className="relative flex items-center justify-between" data-aos={effect}>
       <div className={`border-t-2 border-gray-200 ${leftWidth}`}></div>
       <h2
         className={`text-6xl font-initial font-bold mx-4 text-white whitespace-nowrap ${
@@ -39,6 +40,7 @@ LineGrid.propTypes = {
   underline: PropTypes.bool,
   imageSrc: PropTypes.string,
   imageClassName: PropTypes.string,
+  effect: PropTypes.string
 };
 
 export default LineGrid;

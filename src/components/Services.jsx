@@ -2,7 +2,7 @@ import Grid from "./BentoGrid/Grid"
 const Services = () => {
   return (
     <section id="services" className="w-full bg-[#202020] px-60 py-32">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center" data-aos="fade-down">
           <div className="border border-white w-52 rounded-full py-2 text-white font-light text-center">
             SERVICES
           </div>

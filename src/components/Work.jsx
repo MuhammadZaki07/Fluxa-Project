@@ -1,12 +1,12 @@
 const Work = () => {
   return (
     <section id="works" className="w-full bg-white px-60 py-32">
-      <div className="border border-black w-52 rounded-full py-2 text-black font-light text-center">
+      <div className="border border-black w-52 rounded-full py-2 text-black font-light text-center" data-aos="fade-down">
         OUR WORKS
       </div>
       <div className="flex justify-center gap-56">
         <div className="flex flex-col gap-20 mt-16">
-          <div className="card">
+          <div className="card" data-aos="fade-left">
             <div className="space-y-3 py-5">
               <h1 className="font-medium text-4xl">AYLA</h1>
               <p className="font-normal text-sm text-slate-600 w-7/12">
@@ -26,7 +26,7 @@ const Work = () => {
               ))}
             </div>
           </div>
-          <div className="card">
+          <div className="card" data-aos="fade-left">
             <div className="space-y-3 py-5">
               <h1 className="font-medium text-4xl">NICKLPASS</h1>
               <p className="font-normal text-sm text-slate-600 w-7/12">
@@ -48,7 +48,7 @@ const Work = () => {
           </div>
         </div>
         <div className="flex flex-col gap-20">
-          <div className="card">
+          <div className="card" data-aos="fade-right">
             <div className="space-y-3 py-5">
               <h1 className="font-medium text-4xl">DELIVERICS</h1>
               <p className="font-normal text-sm text-slate-600 w-7/12">
@@ -68,7 +68,7 @@ const Work = () => {
               ))}
             </div>
           </div>
-          <div className="card">
+          <div className="card" data-aos="fade-right">
             <div className="space-y-3 py-5">
               <h1 className="font-medium text-4xl">REACTIVE STACK</h1>
               <p className="font-normal text-sm text-slate-600 w-7/12">
